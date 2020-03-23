@@ -168,8 +168,8 @@ def decode_sequence(input_seq):
     decoded_sentence += sampled_char
  
     # 종료 문자가 나왔거나 문장 길이가 한계를 넘으면 종료
-    #if (sampled_char == '\n' or len(decoded_sentence) > max_decoder_seq_length):
-    #  stop_condition = True
+    if (len(decoded_sentence) > max_decoder_seq_length):
+      stop_condition = True
  
     # 디코더의 다음 입력으로 쓸 데이터 갱신
     target_seq = np.zeros((1, 1, num_decoder_tokens))
@@ -178,7 +178,7 @@ def decode_sequence(input_seq):
     states_value = [h, c]
  
   return decoded_sentence
- 
+model.save("nmp_model.h5")
 for seq_index in range(30):
   input_seq = encoder_input_data[seq_index: seq_index + 1]
   decoded_sentence = decode_sequence(input_seq)
