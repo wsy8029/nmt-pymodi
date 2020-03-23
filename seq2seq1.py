@@ -7,13 +7,15 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import csv
+import os
 
+os.environ['KMP_DUPLICATE_LIB_OK']='True'
 
 # 학습 정보
 batch_size = 64
 epochs = 64
 latent_dim = 256
-num_samples = 1024 # 학습 데이터 개수
+num_samples = 10000 # 학습 데이터 개수
  
 # 문장 벡터화
 input_texts = []
@@ -113,9 +115,72 @@ decoder_outputs = decoder_dense(decoder_outputs)
 model = models.Model([encoder_inputs, decoder_inputs], decoder_outputs)
  
 # 학습
-model.compile(optimizer='rmsprop', loss='categorical_crossentropy')
+model.compile(optimizer='adam', loss='categorical_crossentropy')
 model.fit([encoder_input_data, decoder_input_data], decoder_target_data,
           batch_size=batch_size,
           epochs=epochs,
           validation_split=0.2,
           verbose=2)
+
+# 추론(테스트)
+ 
+# 추론 모델 생성
+encoder_model = models.Model(encoder_inputs, encoder_states)
+ 
+decoder_state_input_h = layers.Input(shape=(latent_dim,))
+decoder_state_input_c = layers.Input(shape=(latent_dim,))
+decoder_states_inputs = [decoder_state_input_h, decoder_state_input_c]
+decoder_outputs, state_h, state_c = decoder_lstm(
+    decoder_inputs, initial_state=decoder_states_inputs)
+decoder_states = [state_h, state_c]
+decoder_outputs = decoder_dense(decoder_outputs)
+decoder_model = models.Model(
+    [decoder_inputs] + decoder_states_inputs,
+    [decoder_outputs] + decoder_states)
+ 
+# 숫자 -> 문자 변환용 사전
+reverse_input_char_index = dict(
+    (i, char) for char, i in input_token_index.items())
+reverse_target_char_index = dict(
+    (i, char) for char, i in target_token_index.items())
+ 
+def decode_sequence(input_seq):
+  # 입력 문장을 인코딩
+  states_value = encoder_model.predict(input_seq)
+ 
+  # 디코더의 입력으로 쓸 단일 문자
+  target_seq = np.zeros((1, 1, num_decoder_tokens))
+  # 첫 입력은 시작 문자인 '\t'로 설정
+  target_seq[0, 0, target_token_index['\t']] = 1.
+ 
+  # 문장 생성
+  stop_condition = False
+  decoded_sentence = ''
+  while not stop_condition:
+    # 이전의 출력, 상태를 디코더에 넣어서 새로운 출력, 상태를 얻음
+    # 이전 문자와 상태로 다음 문자와 상태를 얻는다고 보면 됨.
+    output_tokens, h, c = decoder_model.predict(
+        [target_seq] + states_value)
+ 
+    # 사전을 사용해서 원 핫 인코딩 출력을 실제 문자로 변환
+    sampled_token_index = np.argmax(output_tokens[0, -1, :])
+    sampled_char = reverse_target_char_index[sampled_token_index]
+    decoded_sentence += sampled_char
+ 
+    # 종료 문자가 나왔거나 문장 길이가 한계를 넘으면 종료
+    #if (sampled_char == '\n' or len(decoded_sentence) > max_decoder_seq_length):
+    #  stop_condition = True
+ 
+    # 디코더의 다음 입력으로 쓸 데이터 갱신
+    target_seq = np.zeros((1, 1, num_decoder_tokens))
+    target_seq[0, 0, sampled_token_index] = 1.
+    
+    states_value = [h, c]
+ 
+  return decoded_sentence
+ 
+for seq_index in range(30):
+  input_seq = encoder_input_data[seq_index: seq_index + 1]
+  decoded_sentence = decode_sequence(input_seq)
+  print('"{}" -> "{}"'.format(input_texts[seq_index], decoded_sentence.strip()))
+
