@@ -1,0 +1,804 @@
+불 켜줘,"led = bundle.leds[0]
+while 1:
+	led.set_on()
+	time.sleep(0.1)"
+led 불 켜줘,"led = bundle.leds[0]
+while 1:
+	led.set_on()
+	time.sleep(0.1)"
+led 켜줘,"led = bundle.leds[0]
+while 1:
+	led.set_on()
+	time.sleep(0.1)"
+불 켜줄래,"led = bundle.leds[0]
+while 1:
+	led.set_on()
+	time.sleep(0.1)"
+불 켜주라,"led = bundle.leds[0]
+while 1:
+	led.set_on()
+	time.sleep(0.1)"
+불 켜줘봐,"led = bundle.leds[0]
+while 1:
+	led.set_on()
+	time.sleep(0.1)"
+불 켜,"led = bundle.leds[0]
+while 1:
+	led.set_on()
+	time.sleep(0.1)"
+불 꺼줘,"led = bundle.leds[0]
+while 1:
+	led.set_off()
+	time.sleep(0.1)"
+led 불 꺼줘,"led = bundle.leds[0]
+while 1:
+	led.set_off()
+	time.sleep(0.1)"
+led 꺼줘,"led = bundle.leds[0]
+while 1:
+	led.set_off()
+	time.sleep(0.1)"
+불 꺼줄래,"led = bundle.leds[0]
+while 1:
+	led.set_off()
+	time.sleep(0.1)"
+불 꺼주라,"led = bundle.leds[0]
+while 1:
+	led.set_off()
+	time.sleep(0.1)"
+불 꺼줘봐,"led = bundle.leds[0]
+while 1:
+	led.set_off()
+	time.sleep(0.1)"
+불 꺼,"led = bundle.leds[0]
+while 1:
+	led.set_off()
+	time.sleep(0.1)"
+불 빨간색으로 켜줘,"led = bundle.leds[0]
+while 1:
+	led.set_red(255)
+	time.sleep(0.1)"
+불 빨간색으로 해줘,"led = bundle.leds[0]
+while 1:
+	led.set_red(255)
+	time.sleep(0.1)"
+불 빨갛게 해줘,"led = bundle.leds[0]
+while 1:
+	led.set_red(255)
+	time.sleep(0.1)"
+빨간 불 켜줘,"led = bundle.leds[0]
+while 1:
+	led.set_red(255)
+	time.sleep(0.1)"
+불 빨간색으로 켜줄래,"led = bundle.leds[0]
+while 1:
+	led.set_red(255)
+	time.sleep(0.1)"
+불 빨간색으로 켜주라,"led = bundle.leds[0]
+while 1:
+	led.set_red(255)
+	time.sleep(0.1)"
+불 빨간색으로 켜줘봐,"led = bundle.leds[0]
+while 1:
+	led.set_red(255)
+	time.sleep(0.1)"
+불 빨간색으로 켜,"led = bundle.leds[0]
+while 1:
+	led.set_red(255)
+	time.sleep(0.1)"
+led 불 빨간색으로 켜줘,"led = bundle.leds[0]
+while 1:
+	led.set_red(255)
+	time.sleep(0.1)"
+led 불 빨간색으로 해줘,"led = bundle.leds[0]
+while 1:
+	led.set_red(255)
+	time.sleep(0.1)"
+led 불 빨갛게 해줘,"led = bundle.leds[0]
+while 1:
+	led.set_red(255)
+	time.sleep(0.1)"
+빨간 led 불 켜줘,"led = bundle.leds[0]
+while 1:
+	led.set_red(255)
+	time.sleep(0.1)"
+led 빨간색으로 켜줘,"led = bundle.leds[0]
+while 1:
+	led.set_red(255)
+	time.sleep(0.1)"
+led 빨간색으로 해줘,"led = bundle.leds[0]
+while 1:
+	led.set_red(255)
+	time.sleep(0.1)"
+led 빨갛게 해줘,"led = bundle.leds[0]
+while 1:
+	led.set_red(255)
+	time.sleep(0.1)"
+빨간 led 켜줘,"led = bundle.leds[0]
+while 1:
+	led.set_red(255)
+	time.sleep(0.1)"
+led 빨간색으로 켜주라,"led = bundle.leds[0]
+while 1:
+	led.set_red(255)
+	time.sleep(0.1)"
+led 빨간색으로 켜줘봐,"led = bundle.leds[0]
+while 1:
+	led.set_red(255)
+	time.sleep(0.1)"
+led 빨간색으로 켜,"led = bundle.leds[0]
+while 1:
+	led.set_red(255)
+	time.sleep(0.1)"
+불 파란색으로 켜줘,"led = bundle.leds[0]
+while 1:
+	led.set_blue(255)
+	time.sleep(0.1)"
+불 파란색으로 해줘,"led = bundle.leds[0]
+while 1:
+	led.set_blue(255)
+	time.sleep(0.1)"
+불 파랗게 해줘,"led = bundle.leds[0]
+while 1:
+	led.set_blue(255)
+	time.sleep(0.1)"
+파란 불 켜줘,"led = bundle.leds[0]
+while 1:
+	led.set_blue(255)
+	time.sleep(0.1)"
+불 파란색으로 켜줄래,"led = bundle.leds[0]
+while 1:
+	led.set_blue(255)
+	time.sleep(0.1)"
+불 파란색으로 켜주라,"led = bundle.leds[0]
+while 1:
+	led.set_blue(255)
+	time.sleep(0.1)"
+불 파란색으로 켜줘봐,"led = bundle.leds[0]
+while 1:
+	led.set_blue(255)
+	time.sleep(0.1)"
+불 파란색으로 켜,"led = bundle.leds[0]
+while 1:
+	led.set_blue(255)
+	time.sleep(0.1)"
+led 불 파란색으로 켜줘,"led = bundle.leds[0]
+while 1:
+	led.set_blue(255)
+	time.sleep(0.1)"
+led 불 파란색으로 해줘,"led = bundle.leds[0]
+while 1:
+	led.set_blue(255)
+	time.sleep(0.1)"
+led 불 파랗게 해줘,"led = bundle.leds[0]
+while 1:
+	led.set_blue(255)
+	time.sleep(0.1)"
+파란 led 불 켜줘,"led = bundle.leds[0]
+while 1:
+	led.set_blue(255)
+	time.sleep(0.1)"
+led 파란색으로 켜줘,"led = bundle.leds[0]
+while 1:
+	led.set_blue(255)
+	time.sleep(0.1)"
+led 파란색으로 해줘,"led = bundle.leds[0]
+while 1:
+	led.set_blue(255)
+	time.sleep(0.1)"
+led 파랗게 해줘,"led = bundle.leds[0]
+while 1:
+	led.set_blue(255)
+	time.sleep(0.1)"
+파란 led 켜줘,"led = bundle.leds[0]
+while 1:
+	led.set_blue(255)
+	time.sleep(0.1)"
+led 파란색으로 켜주라,"led = bundle.leds[0]
+while 1:
+	led.set_blue(255)
+	time.sleep(0.1)"
+led 파란색으로 켜줘봐,"led = bundle.leds[0]
+while 1:
+	led.set_blue(255)
+	time.sleep(0.1)"
+led 파란색으로 켜,"led = bundle.leds[0]
+while 1:
+	led.set_blue(255)
+	time.sleep(0.1)"
+불 초록색으로 켜줘,"led = bundle.leds[0]
+while 1:
+	led.set_green(255)
+	time.sleep(0.1)"
+불 초록색으로 해줘,"led = bundle.leds[0]
+while 1:
+	led.set_green(255)
+	time.sleep(0.1)"
+초록 불 켜줘,"led = bundle.leds[0]
+while 1:
+	led.set_green(255)
+	time.sleep(0.1)"
+불 초록색으로 켜줄래,"led = bundle.leds[0]
+while 1:
+	led.set_green(255)
+	time.sleep(0.1)"
+불 초록색으로 켜주라,"led = bundle.leds[0]
+while 1:
+	led.set_green(255)
+	time.sleep(0.1)"
+불 초록색으로 켜줘봐,"led = bundle.leds[0]
+while 1:
+	led.set_green(255)
+	time.sleep(0.1)"
+불 초록색으로 켜,"led = bundle.leds[0]
+while 1:
+	led.set_green(255)
+	time.sleep(0.1)"
+led 불 초록색으로 켜줘,"led = bundle.leds[0]
+while 1:
+	led.set_green(255)
+	time.sleep(0.1)"
+led 불 초록색으로 해줘,"led = bundle.leds[0]
+while 1:
+	led.set_green(255)
+	time.sleep(0.1)"
+초록 led 불 켜줘,"led = bundle.leds[0]
+while 1:
+	led.set_green(255)
+	time.sleep(0.1)"
+led 초록색으로 켜줘,"led = bundle.leds[0]
+while 1:
+	led.set_green(255)
+	time.sleep(0.1)"
+led 초록색으로 해줘,"led = bundle.leds[0]
+while 1:
+	led.set_green(255)
+	time.sleep(0.1)"
+초록 led 켜줘,"led = bundle.leds[0]
+while 1:
+	led.set_green(255)
+	time.sleep(0.1)"
+led 초록색으로 켜주라,"led = bundle.leds[0]
+while 1:
+	led.set_green(255)
+	time.sleep(0.1)"
+led 초록색으로 켜줘봐,"led = bundle.leds[0]
+while 1:
+	led.set_green(255)
+	time.sleep(0.1)"
+led 초록색으로 켜,"led = bundle.leds[0]
+while 1:
+	led.set_green(255)
+	time.sleep(0.1)"
+"불 rgb값 30, 30, 30으로 해줘","led = bundle.leds[0]
+while 1:
+	led.set_rgb(30, 30, 30)
+	time.sleep(0.1)"
+"불 RGB값 40, 30, 20으로 해줘","led = bundle.leds[0]
+while 1:
+	led.set_rgb(40, 30, 20)
+	time.sleep(0.1)"
+"led rgb값 20, 70, 30으로 해줘","led = bundle.leds[0]
+while 1:
+	led.set_rgb(20, 70, 30)
+	time.sleep(0.1)"
+"led 불 RGB값 100, 40, 80으로 해줘","led = bundle.leds[0]
+while 1:
+	led.set_rgb(100, 40, 80)
+	time.sleep(0.1)"
+디스플레이에 hi라고 띄워,"display = bundle.displays[0]
+while 1:
+	display.set_text(“hi”)
+	time.sleep(0.1)"
+디스플레이에 3 띄워,"display = bundle.displays[0]
+while 1:
+	display.set_text(“3”)
+	time.sleep(0.1)"
+디스플레이에 50 보여줘,"display = bundle.displays[0]
+while 1:
+	display.set_text(“50”)
+	time.sleep(0.1)"
+디스플레이에 modi 띄워,"display = bundle.displays[0]
+while 1:
+	display.set_text(“modi”)
+	time.sleep(0.1)"
+화면에 hi라고 띄워,"display = bundle.displays[0]
+while 1:
+	display.set_text(“hi”)
+	time.sleep(0.1)"
+화면에 3 띄워,"display = bundle.displays[0]
+while 1:
+	display.set_text(“3”)
+	time.sleep(0.1)"
+화면에 50 보여줘,"display = bundle.displays[0]
+while 1:
+	display.set_text(“50”)
+	time.sleep(0.1)"
+화면에 modi 띄워,"display = bundle.displays[0]
+while 1:
+	display.set_text(“modi”)
+	time.sleep(0.1)"
+display에 hi라고 띄워,"display = bundle.displays[0]
+while 1:
+	display.set_text(“hi”)
+	time.sleep(0.1)"
+display에 3 띄워,"display = bundle.displays[0]
+while 1:
+	display.set_text(“3”)
+	time.sleep(0.1)"
+display에 50 보여줘,"display = bundle.displays[0]
+while 1:
+	display.set_text(“50”)
+	time.sleep(0.1)"
+display에 modi 띄워,"display = bundle.displays[0]
+while 1:
+	display.set_text(“modi”)
+	time.sleep(0.1)"
+화면 비워,"display = bundle.displays[0]
+while 1:
+	display.set_clear()
+	time.sleep(0.1)"
+화면 비워줘,"display = bundle.displays[0]
+while 1:
+	display.set_clear()
+	time.sleep(0.1)"
+빈 화면 띄워줘,"display = bundle.displays[0]
+while 1:
+	display.set_clear()
+	time.sleep(0.1)"
+디스플레이 비워,"display = bundle.displays[0]
+while 1:
+	display.set_clear()
+	time.sleep(0.1)"
+디스플레이 비워줘,"display = bundle.displays[0]
+while 1:
+	display.set_clear()
+	time.sleep(0.1)"
+빈 디스플레이 띄워줘,"display = bundle.displays[0]
+while 1:
+	display.set_clear()
+	time.sleep(0.1)"
+display 비워,"display = bundle.displays[0]
+while 1:
+	display.set_clear()
+	time.sleep(0.1)"
+display 비워줘,"display = bundle.displays[0]
+while 1:
+	display.set_clear()
+	time.sleep(0.1)"
+빈 display 띄워줘,"display = bundle.displays[0]
+while 1:
+	display.set_clear()
+	time.sleep(0.1)"
+"모터 속도 30, 50으로 해줘","motor = bundle.motors[0]
+while 1:
+	motor.set_speed(30, 50)
+	time.sleep(0.1)"
+"모터 속도 80, 80으로 해주라","motor = bundle.motors[0]
+while 1:
+	motor.set_speed(80, 80)
+	time.sleep(0.1)"
+"모터 속도 20, 40으로 돌려줘","motor = bundle.motors[0]
+while 1:
+	motor.set_speed(20, 40)
+	time.sleep(0.1)"
+"모터 속도 100, 100으로 설정해","motor = bundle.motors[0]
+while 1:
+	motor.set_speed(100, 100)
+	time.sleep(0.1)"
+"motor 속도 30, 50으로 해줘","motor = bundle.motors[0]
+while 1:
+	motor.set_speed(30, 50)
+	time.sleep(0.1)"
+"motor 속도 80, 80으로 해주라","motor = bundle.motors[0]
+while 1:
+	motor.set_speed(80, 80)
+	time.sleep(0.1)"
+"motor 속도 20, 40으로 돌려줘","motor = bundle.motors[0]
+while 1:
+	motor.set_speed(20, 40)
+	time.sleep(0.1)"
+"motor 속도 100, 100으로 설정해","motor = bundle.motors[0]
+while 1:
+	motor.set_speed(100, 100)
+	time.sleep(0.1)"
+"모터 토크 30, 50으로 해줘","motor = bundle.motors[0]
+while 1:
+	motor.set_torque(30, 50)
+	time.sleep(0.1)"
+"모터 토크 80, 80으로 해주라","motor = bundle.motors[0]
+while 1:
+	motor.set_torque(80, 80)
+	time.sleep(0.1)"
+"모터 토크 20, 40으로 돌려줘","motor = bundle.motors[0]
+while 1:
+	motor.set_torque(20, 40)
+	time.sleep(0.1)"
+"모터 토크 100, 100으로 설정해","motor = bundle.motors[0]
+while 1:
+	motor.set_torque(100, 100)
+	time.sleep(0.1)"
+"motor 토크 30, 50으로 해줘","motor = bundle.motors[0]
+while 1:
+	motor.set_torque(30, 50)
+	time.sleep(0.1)"
+"motor 토크 80, 80으로 해주라","motor = bundle.motors[0]
+while 1:
+	motor.set_torque(80, 80)
+	time.sleep(0.1)"
+"motor 토크 20, 40으로 돌려줘","motor = bundle.motors[0]
+while 1:
+	motor.set_torque(20, 40)
+	time.sleep(0.1)"
+"motor 토크 100, 100으로 설정해","motor = bundle.motors[0]
+while 1:
+	motor.set_torque(100, 100)
+	time.sleep(0.1)"
+"모터 각도 30, 50으로 해줘","motor = bundle.motors[0]
+while 1:
+	motor.set_degree(30, 50)
+	time.sleep(0.1)"
+"모터 각도 80, 80으로 해주라","motor = bundle.motors[0]
+while 1:
+	motor.set_degree(80, 80)
+	time.sleep(0.1)"
+"모터 각도 20, 40으로 돌려줘","motor = bundle.motors[0]
+while 1:
+	motor.set_degree(20, 40)
+	time.sleep(0.1)"
+"모터 각도 100, 100으로 설정해","motor = bundle.motors[0]
+while 1:
+	motor.set_degree(100, 100)
+	time.sleep(0.1)"
+"motor 각도 30, 50으로 해줘","motor = bundle.motors[0]
+while 1:
+	motor.set_degree(30, 50)
+	time.sleep(0.1)"
+"motor 각도 80, 80으로 해주라","motor = bundle.motors[0]
+while 1:
+	motor.set_degree(80, 80)
+	time.sleep(0.1)"
+"motor 각도 20, 40으로 돌려줘","motor = bundle.motors[0]
+while 1:
+	motor.set_degree(20, 40)
+	time.sleep(0.1)"
+"motor 각도 100, 100으로 설정해","motor = bundle.motors[0]
+while 1:
+	motor.set_degree(100, 100)
+	time.sleep(0.1)"
+모터 첫번째 각도 30으로 해줘,"motor = bundle.motors[0]
+while 1:
+	motor.set_first_degree(30)
+	time.sleep(0.1)"
+모터 첫번째 각도 80으로 해주라,"motor = bundle.motors[0]
+while 1:
+	motor.set_first_degree(80)
+	time.sleep(0.1)"
+모터 첫번째 각도 20으로 돌려줘,"motor = bundle.motors[0]
+while 1:
+	motor.set_first_degree(20)
+	time.sleep(0.1)"
+모터 첫번째 각도 100으로 설정해,"motor = bundle.motors[0]
+while 1:
+	motor.set_first_degree(100)
+	time.sleep(0.1)"
+motor 첫번째 각도 50으로 해줘,"motor = bundle.motors[0]
+while 1:
+	motor.set_first_degree(50)
+	time.sleep(0.1)"
+motor 첫번째 각도 80으로 해주라,"motor = bundle.motors[0]
+while 1:
+	motor.set_first_degree(80)
+	time.sleep(0.1)"
+motor 첫번째 각도 40으로 돌려줘,"motor = bundle.motors[0]
+while 1:
+	motor.set_first_degree(40)
+	time.sleep(0.1)"
+motor 첫번째 각도 100으로 설정해,"motor = bundle.motors[0]
+while 1:
+	motor.set_first_degree(100)
+	time.sleep(0.1)"
+모터 두번째 각도 30으로 해줘,"motor = bundle.motors[0]
+while 1:
+	motor.set_second_degree(30)
+	time.sleep(0.1)"
+모터 두번째 각도 80으로 해주라,"motor = bundle.motors[0]
+while 1:
+	motor.set_second_degree(80)
+	time.sleep(0.1)"
+모터 두번째 각도 20으로 돌려줘,"motor = bundle.motors[0]
+while 1:
+	motor.set_second_degree(20)
+	time.sleep(0.1)"
+모터 두번째 각도 100으로 설정해,"motor = bundle.motors[0]
+while 1:
+	motor.set_second_degree(100)
+	time.sleep(0.1)"
+motor 두번째 각도 50으로 해줘,"motor = bundle.motors[0]
+while 1:
+	motor.set_second_degree(50)
+	time.sleep(0.1)"
+motor 두번째 각도 80으로 해주라,"motor = bundle.motors[0]
+while 1:
+	motor.set_second_degree(80)
+	time.sleep(0.1)"
+motor 두번째 각도 40으로 돌려줘,"motor = bundle.motors[0]
+while 1:
+	motor.set_second_degree(40)
+	time.sleep(0.1)"
+motor 두번째 각도 100으로 설정해,"motor = bundle.motors[0]
+while 1:
+	motor.set_second_degree(100)
+	time.sleep(0.1)"
+모터 첫번째 토크 30으로 해줘,"motor = bundle.motors[0]
+while 1:
+	motor.set_first_torque(30)
+	time.sleep(0.1)"
+모터 첫번째 토크 80으로 해주라,"motor = bundle.motors[0]
+while 1:
+	motor.set_first_torque(80)
+	time.sleep(0.1)"
+모터 첫번째 토크 20으로 돌려줘,"motor = bundle.motors[0]
+while 1:
+	motor.set_first_torque(20)
+	time.sleep(0.1)"
+모터 첫번째 토크 100으로 설정해,"motor = bundle.motors[0]
+while 1:
+	motor.set_first_torque(100)
+	time.sleep(0.1)"
+motor 첫번째 토크 50으로 해줘,"motor = bundle.motors[0]
+while 1:
+	motor.set_first_torque(50)
+	time.sleep(0.1)"
+motor 첫번째 토크 80으로 해주라,"motor = bundle.motors[0]
+while 1:
+	motor.set_first_torque(80)
+	time.sleep(0.1)"
+motor 첫번째 토크 40으로 돌려줘,"motor = bundle.motors[0]
+while 1:
+	motor.set_first_torque(40)
+	time.sleep(0.1)"
+motor 첫번째 토크 100으로 설정해,"motor = bundle.motors[0]
+while 1:
+	motor.set_first_torque(100)
+	time.sleep(0.1)"
+모터 두번째 토크 30으로 해줘,"motor = bundle.motors[0]
+while 1:
+	motor.set_second_torque(30)
+	time.sleep(0.1)"
+모터 두번째 토크 80으로 해주라,"motor = bundle.motors[0]
+while 1:
+	motor.set_second_torque(80)
+	time.sleep(0.1)"
+모터 두번째 토크 20으로 돌려줘,"motor = bundle.motors[0]
+while 1:
+	motor.set_second_torque(20)
+	time.sleep(0.1)"
+모터 두번째 토크 100으로 설정해,"motor = bundle.motors[0]
+while 1:
+	motor.set_second_torque(100)
+	time.sleep(0.1)"
+motor 두번째 토크 50으로 해줘,"motor = bundle.motors[0]
+while 1:
+	motor.set_second_torque(50)
+	time.sleep(0.1)"
+motor 두번째 토크 80으로 해주라,"motor = bundle.motors[0]
+while 1:
+	motor.set_second_torque(80)
+	time.sleep(0.1)"
+motor 두번째 토크 40으로 돌려줘,"motor = bundle.motors[0]
+while 1:
+	motor.set_second_torque(40)
+	time.sleep(0.1)"
+motor 두번째 토크 100으로 설정해,"motor = bundle.motors[0]
+while 1:
+	motor.set_second_torque(100)
+	time.sleep(0.1)"
+모터 첫번째 각도 30으로 해줘,"motor = bundle.motors[0]
+while 1:
+	motor.set_first_degree(30)
+	time.sleep(0.1)"
+모터 첫번째 각도 80으로 해주라,"motor = bundle.motors[0]
+while 1:
+	motor.set_first_degree(80)
+	time.sleep(0.1)"
+모터 첫번째 각도 20으로 돌려줘,"motor = bundle.motors[0]
+while 1:
+	motor.set_first_degree(20)
+	time.sleep(0.1)"
+모터 첫번째 각도 100으로 설정해,"motor = bundle.motors[0]
+while 1:
+	motor.set_first_degree(100)
+	time.sleep(0.1)"
+motor 첫번째 각도 50으로 해줘,"motor = bundle.motors[0]
+while 1:
+	motor.set_first_degree(50)
+	time.sleep(0.1)"
+motor 첫번째 각도 80으로 해주라,"motor = bundle.motors[0]
+while 1:
+	motor.set_first_degree(80)
+	time.sleep(0.1)"
+motor 첫번째 각도 40으로 돌려줘,"motor = bundle.motors[0]
+while 1:
+	motor.set_first_degree(40)
+	time.sleep(0.1)"
+motor 첫번째 각도 100으로 설정해,"motor = bundle.motors[0]
+while 1:
+	motor.set_first_degree(100)
+	time.sleep(0.1)"
+모터 두번째 각도 30으로 해줘,"motor = bundle.motors[0]
+while 1:
+	motor.set_second_degree(30)
+	time.sleep(0.1)"
+모터 두번째 각도 80으로 해주라,"motor = bundle.motors[0]
+while 1:
+	motor.set_second_degree(80)
+	time.sleep(0.1)"
+모터 두번째 각도 20으로 돌려줘,"motor = bundle.motors[0]
+while 1:
+	motor.set_second_degree(20)
+	time.sleep(0.1)"
+모터 두번째 각도 100으로 설정해,"motor = bundle.motors[0]
+while 1:
+	motor.set_second_degree(100)
+	time.sleep(0.1)"
+motor 두번째 각도 50으로 해줘,"motor = bundle.motors[0]
+while 1:
+	motor.set_second_degree(50)
+	time.sleep(0.1)"
+motor 두번째 각도 80으로 해주라,"motor = bundle.motors[0]
+while 1:
+	motor.set_second_degree(80)
+	time.sleep(0.1)"
+motor 두번째 각도 40으로 돌려줘,"motor = bundle.motors[0]
+while 1:
+	motor.set_second_degree(40)
+	time.sleep(0.1)"
+motor 두번째 각도 100으로 설정해,"motor = bundle.motors[0]
+while 1:
+	motor.set_second_degree(100)
+	time.sleep(0.1)"
+스피커 음정 50으로 해줘,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_tune(50)
+	time.sleep(0.1)"
+스피커 음정 30으로 해,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_tune(30)
+	time.sleep(0.1)"
+스피커 음정 100으로 설정해,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_tune(100)
+	time.sleep(0.1)"
+speaker 음정 50으로 해줘,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_tune(50)
+	time.sleep(0.1)"
+speaker 음정 30으로 해,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_tune(30)
+	time.sleep(0.1)"
+speaker 음정 100으로 설정해,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_tune(100)
+	time.sleep(0.1)"
+스피커 튠 50으로 해줘,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_tune(50)
+	time.sleep(0.1)"
+스피커 튠 30으로 해,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_tune(30)
+	time.sleep(0.1)"
+스피커 튠 100으로 설정해,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_tune(100)
+	time.sleep(0.1)"
+speaker 튠 50으로 해줘,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_tune(50)
+	time.sleep(0.1)"
+speaker 튠 30으로 해,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_tune(30)
+	time.sleep(0.1)"
+speaker 튠 100으로 설정해,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_tune(100)
+	time.sleep(0.1)"
+스피커 진동수 50으로 해줘,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_frequency(50)
+	time.sleep(0.1)"
+스피커 진동수 30으로 해,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_frequency(30)
+	time.sleep(0.1)"
+스피커 진동수 100으로 설정해,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_frequency(100)
+	time.sleep(0.1)"
+speaker 진동수 50으로 해줘,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_frequency(50)
+	time.sleep(0.1)"
+speaker 진동수 30으로 해,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_frequency(30)
+	time.sleep(0.1)"
+speaker 진동수 100으로 설정해,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_frequency(100)
+	time.sleep(0.1)"
+스피커 음량 50으로 해줘,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_volume(50)
+	time.sleep(0.1)"
+스피커 음량 30으로 해,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_volume(30)
+	time.sleep(0.1)"
+스피커 음량 100으로 설정해,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_volume(100)
+	time.sleep(0.1)"
+speaker 음량 50으로 해줘,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_volume(50)
+	time.sleep(0.1)"
+speaker 음량 30으로 해,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_volume(30)
+	time.sleep(0.1)"
+speaker 음량 100으로 설정해,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_volume(100)
+	time.sleep(0.1)"
+스피커 볼륨 50으로 해줘,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_volume(50)
+	time.sleep(0.1)"
+스피커 볼륨 30으로 해,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_volume(30)
+	time.sleep(0.1)"
+스피커 볼륨 100으로 설정해,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_volume(100)
+	time.sleep(0.1)"
+speaker 볼륨 50으로 해줘,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_volume(50)
+	time.sleep(0.1)"
+speaker 볼륨 30으로 해,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_volume(30)
+	time.sleep(0.1)"
+speaker 볼륨 100으로 설정해,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_volume(100)
+	time.sleep(0.1)"
+스피커 소리 크기 50으로 해줘,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_volume(50)
+	time.sleep(0.1)"
+스피커 소리 크기 30으로 해,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_volume(30)
+	time.sleep(0.1)"
+스피커 소리 크기 100으로 설정해,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_volume(100)
+	time.sleep(0.1)"
+speaker 소리 크기 50으로 해줘,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_volume(50)
+	time.sleep(0.1)"
+speaker 소리 크기 30으로 해,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_volume(30)
+	time.sleep(0.1)"
+speaker 소리 크기 100으로 설정해,"speaker = bundle.speakers[0]
+while 1:
+	speaker.set_volume(100)
+	time.sleep(0.1)"

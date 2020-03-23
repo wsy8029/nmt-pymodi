@@ -19,7 +19,7 @@ class Char_RNN(object):
         self.build()
 
     def build(self):
-        self.x_data = tf.placeholder(shape=[None, self.time_step, self.n_class], dtype=tf.float32)
+        self.x_data = tf.holder(shape=[None, self.time_step, self.n_class], dtype=tf.float32)
         self.y_data = tf.placeholder(dtype=tf.int32, shape=[None, ])
 
         rnn_cell = tf.nn.rnn_cell.BasicRNNCell(self.hidden_size)
@@ -93,6 +93,10 @@ class Seq2Seq_for_translation(object):
                 self.decoder_input_data[i, j, self.target_token_index[ch]] = 1.
                 if j > 0:
                     self.decoder_target_data[i, j-1, self.target_token_index[ch]] = 1.
+        
+        print("encoder_input_data = ", self.encoder_input_data[:30])
+        print("decoder_input_data = ", self.decoder_input_data[:30])
+        print("decoder_target_data = ", self.decoder_target_data[:30])
 
         self.build()
 
@@ -212,7 +216,7 @@ if __name__=="__main__":
 
     with open('kor-eng/kor.txt', 'r', encoding='utf-8') as f:
         lines = f.read().split('\n')
-
+    print(len(lines))
     input_texts = []
     target_texts = []
     target_text = ""
@@ -224,10 +228,13 @@ if __name__=="__main__":
         target_texts.append(target_text)
 
     seq2seq = Seq2Seq_for_translation(input_texts, target_texts)
-    seq2seq.draw()
-    seq2seq.fit(load_model_path='s2s.h5', epochs=10)
-    print(input_texts[:100])
-    print(seq2seq.translate(input_texts[:100]))
+    #seq2seq.draw()
+    #seq2seq.fit(load_model_path='s2s.h5', epochs=10)
+    #print(input_texts[:100])
+    #print(seq2seq.translate(input_texts[:100]))
+
+    '''
     while 1:
         sen = input("input : ")
         print("result : ",seq2seq.translate(sen))
+    '''
